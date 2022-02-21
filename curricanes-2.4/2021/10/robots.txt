@@ -1,0 +1,118 @@
+############
+## SITEMAP
+
+## Sitemap URL should be absolute
+## http://www.sitemaps.org/protocol.html#submit_robots
+Sitemap: http://www.aquariumspecialty.com/sitemaps/sitemap.xml
+
+
+#################
+## ALL CRAWLERS
+
+## Apply rules to all crawlers
+User-agent: *
+
+## The number of seconds to wait between successive requests to the same server
+## This may resolve traffic problems on slower servers
+Crawl-delay: 30
+
+
+################################
+## DEFAULT FILES & DIRECTORIES
+
+## Disallow default files
+Disallow: /api.php
+Disallow: /cron.php
+Disallow: /cron.sh
+Disallow: /error_log
+Disallow: /get.php
+Disallow: /install.php
+Disallow: /LICENSE.html
+Disallow: /LICENSE.txt
+Disallow: /LICENSE_AFL.txt
+Disallow: /README.txt
+Disallow: /README.md
+Disallow: /RELEASE_NOTES.txt
+Disallow: /STATUS.txt
+
+## Disallow default directories
+Disallow: /app/
+Disallow: /downloader/
+Disallow: /errors/
+Disallow: /includes/
+Disallow: /lib/
+Disallow: /pkginfo/
+Disallow: /shell/
+Disallow: /var/
+
+# Allow bots to fetch and render pages
+# Allow: /js/
+# Allow: /media/
+# Allow: /skin/
+
+##############
+## URL PATHS
+
+## Prevent crawling of admininstration login page
+Disallow: /admin/
+
+## Prevent crawling generated content
+Disallow: /control/
+Disallow: /contacts/
+Disallow: /customize/
+Disallow: /newsletter/
+Disallow: /poll/
+Disallow: /review/
+Disallow: /sendfriend/
+Disallow: /tag/
+Disallow: /wishlist/
+Disallow: /catalog/product/gallery/
+
+
+#####################
+## SEO IMPROVEMENTS
+
+## Remove canonical index.php URLs
+## Disable line if SEO URLs are disabled
+Disallow: /index.php/
+
+## Allow paginated URLs to be crawled only if they are not sorted or filtered
+Disallow: /*?*&p=
+Disallow: /*?p=*&
+
+## Prevent crawling of links with session IDs
+Disallow: /*?SID=
+
+## Prevent crawling of checkout
+# Disallow: /checkout/
+# Disallow: /onestepcheckout/
+
+## Prevent crawling user account pages
+Disallow: /customer/
+# Disallow: /customer/account/
+# Disallow: /customer/account/login/
+
+## Prevent crawling of search pages and not-SEO optimized catalog links
+Disallow: /catalogsearch/
+Disallow: /catalog/product_compare/
+Disallow: /catalog/category/view/
+Disallow: /catalog/product/view/
+
+
+###################
+## IMAGE CRAWLERS
+
+## Prevent Google and Bing from indexing images
+# User-agent: Googlebot-Image
+# User-agent: msnbot-media
+User-agent:SemrushBot
+# Disallow: /
+
+## Allow a subset of images to be indexed
+# Allow: /media/catalog/product/
+
+# Query Strings of Layered Navigation
+Disallow: /*?*price=*
+Disallow: /*?*manufacturer=*
+Disallow: /*?*wattage=*
+Disallow: /*?*color=*
