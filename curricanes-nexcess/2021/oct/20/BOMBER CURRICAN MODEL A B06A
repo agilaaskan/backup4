@@ -1,0 +1,31 @@
+BOMBER CURRICAN MODEL A B06A
+BOMBER CURRICAN MODEL A B08A
+
+
+15528
+155035
+1313
+130
+0
+
+14551
+168025
+1313
+0
+14551
+15528
+
+UPDATE `catalog_product_entity_int` SET value= 15695 WHERE `attribute_id` = 1313 AND `value` = 15694 AND entity_id NOT IN (14550,14549,14548,14547,14546,14545,14544,14543,14542,14532,14531,1453)
+
+SELECT * FROM `catalog_product_entity_int` WHERE value= 15694;
+
+UPDATE `catalog_product_entity_int` SET value= 15528 WHERE `attribute_id` = 1313 AND `value` = 15695
+
+UPDATE `catalog_product_entity_int` SET value= 15694 WHERE `attribute_id` = 1313 AND `value` = 15695 
+
+14550,14549,14548,14547,14546,14545,14544,14543,14542,14532,14531,1453
+
+
+14550,14549,14548,14546,14545
+14549,14548,14547,14546,14545,14544,14543,14542
+INSERT INTO `catalog_product_entity_int` (attribute_id,store_id,entity_id,value) VALUES (1313,0,14542,15528)

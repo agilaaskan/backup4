@@ -1,0 +1,6 @@
+Status,Type,Validation,Pages
+Error,Clickable elements too close together,Not Started,10
+Error,Content wider than screen,Not Started,10
+Error,Text too small to read,N/A,0
+Error,Viewport not set,N/A,0
+Valid,Mobile-friendly pages,N/A,418

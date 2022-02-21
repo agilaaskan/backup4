@@ -1,0 +1,5 @@
+[2021-07-29 04:20:09] main.WARNING: Broken reference: The element with the "before.body.end" ID wasn't found. Verify the ID and try again. [] []
+[2021-07-29 11:41:59] main.CRITICAL: Invalid template file: 'Magento_PageBuilder::widget/link_href.phtml' in module: 'Magento_Catalog' block's name: 'category\widget\link_0' [] []
+[2021-07-29 11:41:59] main.CRITICAL: Invalid template file: 'Magento_PageBuilder::widget/link_href.phtml' in module: 'Magento_Cms' block's name: 'widget\page\link_0' [] []
+[2021-07-29 11:41:59] main.CRITICAL: Invalid template file: 'Magento_PageBuilder::widget/link_href.phtml' in module: 'Magento_Cms' block's name: 'widget\page\link_1' [] []
+[2021-07-29 11:44:25] main.ERROR: Class Magento\Rma\Model\Product\Source does not exist [] []

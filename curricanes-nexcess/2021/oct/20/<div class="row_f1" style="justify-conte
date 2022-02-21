@@ -1,0 +1,29 @@
+<div class="row_f1" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;" data-content-type="row" data-appearance="full-width" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main">
+<div class="row-full-width-inner" data-element="inner">
+<div style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="html" data-appearance="default" data-element="main"><img class="top_banner_home" style="width: 100%;" src="{{media url=wysiwyg/fletegratispc3.jpg}}" alt=""></div>
+</div>
+</div>
+<div data-content-type="row" data-appearance="contained" data-element="main">
+<div class="row1" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner">
+<div style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="html" data-appearance="default" data-element="main"><img class="top_banner_mobile" src="{{media url=wysiwyg/logocurricanes.jpg}}" alt=""></div>
+<div class="home_page_banner1" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="137"}}</div>
+</div>
+</div>
+<div class="row12" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;" data-content-type="row" data-appearance="full-width" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="main">
+<div class="row-full-width-inner" data-element="inner">
+<div class="home_page_banner2" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="118"}}</div>
+</div>
+</div>
+<div data-content-type="row" data-appearance="contained" data-element="main">
+<div class="row2" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner">
+<div style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="120"}}</div>
+<div style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="94"}}</div>
+<div style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="92"}}</div>
+<div class="home_cat" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="123"}}</div>
+</div>
+</div>
+<div data-content-type="row" data-appearance="contained" data-element="main">
+<div class="row3" style="justify-content: flex-start; display: flex; flex-direction: column; background-position: left top; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; border-style: none; border-width: 1px; border-radius: 0px; margin: 0px 0px 10px; padding: 10px;" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-element="inner">
+<div class="home_newsletter" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding: 0px;" data-content-type="block" data-appearance="default" data-element="main">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="136"}}</div>
+</div>
+</div>

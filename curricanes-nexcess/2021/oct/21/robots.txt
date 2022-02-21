@@ -1,0 +1,5 @@
+User-agent: *
+allow: /
+disallow: /catalogsearch/*
+disallow: /en/catalogsearch/*
+disallow: /ta/stores/*

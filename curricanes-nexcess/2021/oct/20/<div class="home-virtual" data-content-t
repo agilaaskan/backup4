@@ -1,0 +1,6 @@
+<div class="home-virtual" data-content-type="row" data-appearance="full-bleed" data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{\&quot;desktop_image\&quot;:\&quot;{{media url=wysiwyg/liquidacionarcospc2.jpg}}\&quot;,\&quot;mobile_image\&quot;:\&quot;{{media url=wysiwyg/liquidacionarcosmovil.jpg}}\&quot;}" data-element="main" style="justify-content: flex-end; display: flex; flex-direction: column; background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: scroll; text-align: center; border-style: none; border-width: 1px; border-radius: 0px; min-height: 470px; margin: 0px; padding: 0px 10px;">
+<div data-content-type="buttons" data-appearance="inline" data-same-width="false" data-element="main" style="border-style: none; border-width: 1px; border-radius: 0px; margin: 0px; padding-left: 10px; padding-right: 10px; padding-bottom: 40px;">
+<div data-content-type="button-item" data-appearance="default" data-element="main" style="display: inline-block;"><a class="pagebuilder-button-primary" href="{{store url="liquidacion-mathews.html"}}" target="" data-link-type="default" data-element="link" style="text-align: center;"><span data-element="link_text">VER MODELOS CON DESCUENTO</span></a>
+</div>
+</div>
+</div>

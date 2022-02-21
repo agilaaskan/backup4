@@ -1,0 +1,7 @@
+UPDATE core_config_data SET value = 6 WHERE path = "design/theme/theme_id";
+
+UPDATE core_config_data SET value = "https://www.curricanes.com/" WHERE path = "web/unsecure/base_url";
+UPDATE core_config_data SET value = "https://www.curricanes.com/" WHERE path = "web/secure/base_url";
+UPDATE core_config_data SET value = "https://www.curricanes.com/media/wysiwyg/oxxo3.jpg" WHERE path = "payment/mercadopago_customticket/banner_checkout";
+
+select value from core_config_data  WHERE path = "payment/mercadopago_customticket/banner_checkout";

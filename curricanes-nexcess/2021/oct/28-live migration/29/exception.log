@@ -1,0 +1,21 @@
+[2021-10-29 08:26:22] main.CRITICAL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'entity_value.value' in 'field list', query was: SELECT `entity`.`sku`, `product_entity`.`entity_id` AS `product_id`, `attribute`.`attribute_code`, `entity_value`.`value` AS `value_index`, `attribute_label`.`value` AS `super_attribute_label`, IFNULL(option_value.value, default_option_value.value) AS `option_title`, `default_option_value`.`value` AS `default_title` FROM `catalog_product_super_attribute` AS `super_attribute`
+ INNER JOIN `catalog_product_entity` AS `product_entity` ON product_entity.entity_id = super_attribute.product_id
+ INNER JOIN `catalog_product_super_link` AS `product_link` ON product_link.parent_id = super_attribute.product_id
+ INNER JOIN `eav_attribute` AS `attribute` ON attribute.attribute_id = super_attribute.attribute_id
+ INNER JOIN `catalog_product_entity` AS `entity` ON entity.entity_id = product_link.product_id
+ INNER JOIN `catalog_product_entity` AS `entity_value` ON entity_value.attribute_id = super_attribute.attribute_id AND entity_value.store_id = 0 AND entity_value.entity_id = entity.entity_id
+ LEFT JOIN `catalog_product_super_attribute_label` AS `attribute_label` ON super_attribute.product_super_attribute_id = attribute_label.product_super_attribute_id AND attribute_label.store_id = 0
+ LEFT JOIN `eav_attribute_option` AS `attribute_option` ON attribute_option.option_id = entity_value.value
+ LEFT JOIN `eav_attribute_option_value` AS `option_value` ON option_value.option_id = entity_value.value AND option_value.store_id = 0
+ LEFT JOIN `eav_attribute_option_value` AS `default_option_value` ON default_option_value.option_id = entity_value.value AND default_option_value.store_id = 0 WHERE (super_attribute.product_id = 14551) AND (attribute.attribute_id = '') ORDER BY `attribute_option`.`sort_order` ASC
+ {"exception":"[object] (Zend_Db_Statement_Exception(code: 42): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'entity_value.value' in 'field list', query was: SELECT `entity`.`sku`, `product_entity`.`entity_id` AS `product_id`, `attribute`.`attribute_code`, `entity_value`.`value` AS `value_index`, `attribute_label`.`value` AS `super_attribute_label`, IFNULL(option_value.value, default_option_value.value) AS `option_title`, `default_option_value`.`value` AS `default_title` FROM `catalog_product_super_attribute` AS `super_attribute`
+ INNER JOIN `catalog_product_entity` AS `product_entity` ON product_entity.entity_id = super_attribute.product_id
+ INNER JOIN `catalog_product_super_link` AS `product_link` ON product_link.parent_id = super_attribute.product_id
+ INNER JOIN `eav_attribute` AS `attribute` ON attribute.attribute_id = super_attribute.attribute_id
+ INNER JOIN `catalog_product_entity` AS `entity` ON entity.entity_id = product_link.product_id
+ INNER JOIN `catalog_product_entity` AS `entity_value` ON entity_value.attribute_id = super_attribute.attribute_id AND entity_value.store_id = 0 AND entity_value.entity_id = entity.entity_id
+ LEFT JOIN `catalog_product_super_attribute_label` AS `attribute_label` ON super_attribute.product_super_attribute_id = attribute_label.product_super_attribute_id AND attribute_label.store_id = 0
+ LEFT JOIN `eav_attribute_option` AS `attribute_option` ON attribute_option.option_id = entity_value.value
+ LEFT JOIN `eav_attribute_option_value` AS `option_value` ON option_value.option_id = entity_value.value AND option_value.store_id = 0
+ LEFT JOIN `eav_attribute_option_value` AS `default_option_value` ON default_option_value.option_id = entity_value.value AND default_option_value.store_id = 0 WHERE (super_attribute.product_id = 14551) AND (attribute.attribute_id = '') ORDER BY `attribute_option`.`sort_order` ASC
+ at /chroot/home/a11c8de6/03a7f673f4.nxcli.net/vendor/magento/framework/DB/Statement/Pdo/Mysql.php:110, PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'entity_value.value' in 'field list' at /chroot/home/a11c8de6/03a7f673f4.nxcli.net/vendor/magento/framework/DB/Statement/Pdo/Mysql.php:91)"} []

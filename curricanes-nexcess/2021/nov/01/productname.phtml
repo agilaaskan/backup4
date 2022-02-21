@@ -1,0 +1,14 @@
+<?php
+$product = $block->getProduct(); ?>
+<!-- description -->
+<?php $mtitle = $product->getName();?>
+<h2 class="page-title mobile" style="display:none;">
+    <span class="base"><?php echo $mtitle;?></span>  
+</h2>
+<style>
+@media only screen and (max-width:767px) {
+html body.catalog-product-view  h2.page-title.mobile {display:block !important;margin:0px 0px;}
+html body.catalog-product-view .product-info-main .page-title-wrapper h1{display:none;}
+html body.catalog-product-view .fotorama__stage__frame .fotorama__img{top:40%;}
+}
+</style>
